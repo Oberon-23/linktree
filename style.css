@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #a7adb5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+a {
+    background-color: white;
+    font-size: 18px; /* Tamanho da fonte maior */
+    border-radius: 10px;
+    padding: 15px 20px; /* Botões maiores */
+    display: block; /* Alinha os botões verticalmente */
+    text-align: center;
+    margin: 15px auto; /* Centraliza os botões e adiciona espaçamento vertical */
+    color: grey !important;
+    width: 200px; /* Largura ajustada dos botões */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgb(71, 71, 71);
+    color: white !important;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    img {
+        width: 120px;
+        height: 120px;
+    }
+
+    a {
+        font-size: 16px; 
+        padding: 12px 18px; 
+        width: 180px; 
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
