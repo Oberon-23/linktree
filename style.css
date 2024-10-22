@@ -9,21 +9,21 @@ body {
 }
 
 a {
-    background-color: white;
-    font-size: 18px; /* Tamanho da fonte maior */
+    background-color: black;
+    font-size: 18px;
     border-radius: 10px;
-    padding: 15px 20px; /* Botões maiores */
-    display: block; /* Alinha os botões verticalmente */
+    padding: 15px 20px;
+    display: block;
     text-align: center;
-    margin: 15px auto; /* Centraliza os botões e adiciona espaçamento vertical */
-    color: grey !important;
-    width: 200px; /* Largura ajustada dos botões */
-    text-decoration: none; /* Remove o sublinhado */
+    margin: 15px auto;
+    color: white;
+    width: 200px;
+    text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
-    background-color: rgb(71, 71, 71);
+    background-color: grey;
     color: white !important;
 }
 
@@ -45,6 +45,23 @@ p {
     margin-bottom: 20px;
 }
 
+/* Footer Estilizado */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
 /* Responsividade */
 @media (max-width: 600px) {
     img {
@@ -53,9 +70,10 @@ p {
     }
 
     a {
-        font-size: 16px; 
-        padding: 12px 18px; 
-        width: 180px; 
+        font-size: 16px;
+        padding: 12px 18px;
+        width: 180px;
+    }
 
     h1 {
         font-size: 24px;
@@ -63,5 +81,9 @@ p {
 
     h2 {
         font-size: 16px;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 }
